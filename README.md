@@ -10,12 +10,12 @@ The project uses:
 - `Swagger/ OpenAPI` for REST API documentation & playground
 
 ## Features
-### 1) Traditional REST CRUD APIs
+### 1) Traditional REST API endpoints
    - Fetch user(s) `GET`
    - Create user `POST`
    - Delete user `DELETE`
    - Update user `PATCH`
-### 2) Agentic AI Support (Tool Calling)**
+### 2) Agentic AI Support
    - Interpret natural-language instructions through `ChatClient`
    - Perform CRUD operations intelligently via `Tool Calling`
    - Enforce business rules through `Prompt Guarding`
@@ -45,9 +45,9 @@ mvn spring-boot:run
 
 ## Swagger API
 Once the application is running, visit:
-- Swagger UI (For playground & testing)
+- Swagger UI (For playground & testing):
 http://localhost:8080/swagger-ui/index.html
-- OpenAPI Docs (Raw JSON docs)
+- OpenAPI Docs (Raw JSON docs):
 http://localhost:8080/v3/api-docs
 
 SpringDoc uses `/v3/api-docs` internally even if you never configured it.
